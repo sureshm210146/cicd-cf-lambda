@@ -37,6 +37,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: !Sub sam-function-example-${Environment}
+      AutoPublishAlias: test
       CodeUri: src/
       Handler: main.handler
       Runtime: nodejs12.x

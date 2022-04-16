@@ -16,6 +16,5 @@ phases:
         --capabilities CAPABILITY_IAM \
         --parameter-overrides \
         Environment=$ENVIRONMENT
-      -
-        sam publish -t template.yml
+
 
