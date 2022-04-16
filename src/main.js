@@ -9,7 +9,7 @@ exports.handler = (event, context, callback) => {
           pk: "marco.mercado@gmail.com",
           sk: "user",
           first_name: "Marco",
-          last_name: "Mercado"
+          last_name: "Mercado1234"
       },
       ConditionExpression: "attribute_not_exists(pk)",
       ReturnConsumedCapacity: 'TOTAL'
